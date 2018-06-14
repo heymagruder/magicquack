@@ -1,0 +1,99 @@
+/* ----------------------------- */
+/* == Nav */
+/* ----------------------------- */
+
+nav { padding-top: 15px; }
+nav ul { list-style: none; }
+nav ul li { display: inline; margin-left: 15px; text-decoration: none; }
+nav ul li a { color: black; }
+nav ul li a:visited { color: black; }
+nav ul li a:hover { opacity: 0.4; }
+
+
+.brand-nav {
+	padding: 8px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+}
+
+.top-nav {
+	background-color: #fff;
+	border-bottom: 2px solid #ccc;
+}
+
+/* Page Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.header {
+	background-color: #138440;
+	box-shadow: 0 8px 5px -4px #e4e4e4;
+		-webkit-box-shadow: 0 8px 5px -4px #e4e4e4;
+	   -moz-box-shadow: 0 8px 5px -4px #e4e4e4;
+}
+
+.header-cta {
+	background-color: #fff;
+	padding: 40px;
+}
+
+.header-video {
+	background-color: #138440;
+	padding: 40px;
+}
+
+
+
+/* Page Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.page-content {
+	padding-top: 80px;
+}
+
+.center {
+	text-align: center;
+	font-weight: 700;
+	padding-bottom: 40px;
+}
+
+
+/* Sections
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.section {
+  padding: 8rem 0 7rem;
+  text-align: center;
+}
+.section-heading,
+.section-description {
+  margin-bottom: 1.2rem;
+}
+
+
+/* Compaire Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#container1 {
+    margin: 0 auto;
+    border: 1px solid #cdcdcd;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* width: 1000px; */
+}
+
+
+/* UI Elements
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.btn {
+  background: #afd136;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background: #92b121;
+  text-decoration: none;
+}
