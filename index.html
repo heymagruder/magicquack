@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Magic Quack</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -26,12 +26,8 @@
 
   <!-- SCRIPTS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/jquery.app.js" type="text/javascript"></script>
-    <script src="js/jquery.event.move.js" type="text/javascript"></script>
-    <script src="js/jquery.twentytwenty.js" type="text/javascript"></script>
-    <script src="js/smoothscroll.js" type="text/javascript"></script>
+  <script src="js/jquery.app.js" type="text/javascript"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -46,7 +42,7 @@
   <div class="container">
     <nav>
       <ul>
-        <a href='index.html' class="brand-logo"><a href="https://placeholder.com"><img src="http://via.placeholder.com/120x60"></a></a>
+        <a href='index.html' class="brand-logo"><img src=".images/logo.png"></a>
         <div class="u-pull-right">
           <li class="brand-nav"><a href="#about">About</a></li>
           <li class="brand-nav"><a href="#compaire">Compaire</a></li>
@@ -61,7 +57,7 @@
   <div class="container">
     <div class="row">
         <div class="one-half column header-video">
-          <h4>video will go here.</h4>
+          <h4>video / image will go here.</h4>
         </div>
         <div class="one-half column header-cta">
           <h1>Right</h1>
@@ -75,7 +71,7 @@
 
 <div class="page-content">
   <div class="container">
-    <h3 class="center">What is Magic Quack?</h3>
+    <h3 class="center-title">What is Magic Quack?</h3>
     <a name="about"></a>
         <div class="row">
               <div class="one-half column">
@@ -92,20 +88,20 @@
 
 <div class="page-content">
   <div class="container">
-    <h3 class="center">Testimonials</h3>
+    <h3 class="center-title">Testimonials</h3>
     <a name="about"></a>
         <div class="row">
-              <div class="one-third column">
+              <div class="one-third column center">
                 <h4>This stuff is great!</h4>
                 <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
                 <img src="http://via.placeholder.com/100x100">
             </div>
-            <div class="one-third column">
+            <div class="one-third column center">
                 <h4>This stuff is great!</h4>
                 <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
                 <img src="http://via.placeholder.com/100x100">
             </div>
-            <div class="one-third column">
+            <div class="one-third column center">
                 <h4>This stuff is great!</h4>
                 <p>Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
                 <img src="http://via.placeholder.com/100x100">
@@ -117,7 +113,7 @@
 
 <div class="page-content">
   <div class="container">
-    <h3 class="center">Compaire Before & After</h3>
+    <h3 class="center-title">Compaire Before & After</h3>
     <a name="compaire"></a>
         <div class="row">
           <div id="container1">
@@ -133,11 +129,19 @@
 
 <div class="page-content">
   <div class="container">
-    <h3 class="center">Buy Magic Quack</h3>
+    <h3 class="center-title">Buy Magic Quack</h3>
     <a name="buy"></a>
         <div class="row">
-          <div class="one-half column"></div>
-          <div class="one-half column"></div>
+          <div class="one-half column">
+            <div class="product-photo">
+<!--               <img src="images/MQ-3cans.png"> -->
+            </div>
+          </div>
+          <div class="one-half column">
+            <h4>Don't replace you're decoys this year, restore them!</h4>
+            <p>Magic Quack instantly restores color to your decoys by creating a long-lasting protective barrier. Bring your decoys back to life with this easy spray-on application. Works on any type of decoy, any color. One can restore's over two dozen decoys.</p>
+            <a href="#" class="btn">BUY NOW!</a>
+          </div>
         </div>
   </div>
 </div> <!-- End Page Content -->
@@ -147,7 +151,15 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <script type="text/javascript" src="js/smoothscroll.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <script>
+    $(window).load(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
 
 </body>
 </html>

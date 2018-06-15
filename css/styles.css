@@ -22,6 +22,12 @@ nav ul li a:hover { opacity: 0.4; }
 	border-bottom: 2px solid #ccc;
 }
 
+.brand-logo {
+    padding: 20px;
+    width: 40px;
+}
+
+
 /* Page Header
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -51,10 +57,14 @@ nav ul li a:hover { opacity: 0.4; }
 	padding-top: 80px;
 }
 
-.center {
+.center-title {
 	text-align: center;
 	font-weight: 700;
 	padding-bottom: 40px;
+}
+
+.center {
+	text-align: center;
 }
 
 
@@ -68,6 +78,14 @@ nav ul li a:hover { opacity: 0.4; }
 .section-description {
   margin-bottom: 1.2rem;
 }
+
+.product-photo {
+    height: 460px;
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0 rgba(112,154,206,0.3), 0px 6px 22px 0 rgba(83,128,184,0.12), inset 0px -3px 2.5px 0 rgba(93,121,155,0.05);
+    background-image: url('images/MQ-3cans.png');
+}
+
 
 
 /* Compaire Section
