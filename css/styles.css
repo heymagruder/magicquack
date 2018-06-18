@@ -101,6 +101,7 @@ nav ul li a:hover { opacity: 0.4; }
 .center {
 	text-align: center;
 }
+
 .avatar img{
  border-radius: 50%;
 }
@@ -117,14 +118,15 @@ nav ul li a:hover { opacity: 0.4; }
 }
 
 .product-photo {
-    height: 460px;
+    height: 500px;
     border-radius: 4px;
     -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
-    background-image: url('images/MQ-3cans.png');
+    overflow: hidden;
+    background-image: url('../images/MQ-3cans.png');
+    background-size: cover;
 }
-
 
 
 /* Compaire Section
