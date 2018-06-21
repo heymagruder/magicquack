@@ -156,6 +156,11 @@ nav ul li a:hover { opacity: 0.4; }
   text-decoration: none;
 }
 
+
+::-moz-selection { background-color: #138440; color: white; }
+::selection { background-color: #138440; color: white; }
+
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
