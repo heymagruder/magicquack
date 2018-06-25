@@ -110,23 +110,31 @@ nav ul li a:hover { opacity: 0.4; }
 
 .buy-products {
 	width: 100%;
-	background-color: #6b6060;
-	padding-top: 100px;
+	background-color: #cacaca;
 	padding-bottom: 100px;
 }
 
 .one {
-	background-color: #eeeeee;
+	background-color: #fff;
 	padding: 20px;
 	text-align: center;
+	    -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
 }
 
 .three {
-	background-color: #eeeeee;
+	background-color: #fff;
 	padding: 20px;
 	text-align: center;
+	    -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
+    -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
+    box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
 }
 
+.buy-title {
+	padding-top: 120px;
+}
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {
@@ -158,6 +166,7 @@ nav ul li a:hover { opacity: 0.4; }
     -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
+    margin-bottom: 100px;
     /* width: 1000px; */
 }
 
