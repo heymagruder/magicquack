@@ -13,18 +13,20 @@ nav ul li a:hover { opacity: 0.4; }
 .brand-nav {
 	padding: 8px;
 	text-transform: uppercase;
-	font-family: 'Montserrat', sans-serif;
+/*	font-family: 'Montserrat', sans-serif;*/
+	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 }
 
 .top-nav {
 	background-color: #fff;
-	border-bottom: 2px solid #ccc;
+	box-shadow: 0 8px 5px -4px #e4e4e4;
+	-webkit-box-shadow: 0 8px 5px -4px #e4e4e4;
+   -moz-box-shadow: 0 8px 5px -4px #e4e4e4;
 }
 
-.brand-logo {
-    padding: 20px;
-    width: 40px;
+.brand-logo img {
+    height: 80px;
 }
 
 
