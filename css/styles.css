@@ -257,3 +257,25 @@ nav ul li a:hover { opacity: 0.4; }
   }
 }
 
+/* Smaller than 550 */
+@media (max-width: 550px) {
+  .one-can {
+    margin-bottom: 40px;
+  }
+  .btn {
+  	padding: 10px 20px 10px 20px;
+  }
+}
+
+/* Smaller than 700 */
+@media (max-width: 700px) {
+  .btn {
+  	padding: 8px 18px 8px 18px;
+  }
+  .three-can {
+  	padding: 30px;
+  }
+  .one-can {
+  	padding: 30px;
+  }
+}
