@@ -169,8 +169,14 @@ nav ul li a:hover { opacity: 0.4; }
     color: #fff;
 }
 
+.thankyou {
+	padding-top: 240px;
+	color: #fff;
+}
 
-
+.thankyou h1 {
+	color: #fff;
+}
 /* Sections
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .section {

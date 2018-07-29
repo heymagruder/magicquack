@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Magic Quack</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/twentytwenty.css" type="text/css" media="screen" />
+
+  <!-- SCRIPTS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+
+</head>
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<div class="u-full-width top-nav">
+  <div class="container">
+    <nav>
+      <ul>
+        <a href='index.html' class="brand-logo"><img src=".//images/logo.png"></a>
+        <div class="u-pull-right">
+          <li class="brand-nav"><a href="#about">About</a></li>
+          <li class="brand-nav"><a href="#compare">Compare</a></li>
+          <li class="brand-nav"><a href="#buy">Buy Now</a></li>
+        </div>
+      </ul>
+    </nav>
+  </div>
+</div> <!-- End Full Width -->
+
+<div class="u-full-width header">
+  <div class="container">
+    <div class="row">
+        <div class="one-half column thankyou">
+          <h2>Thank you for your purchase. </h2>
+          <p>Your order has been received and will be processed shortly.</p>
+        </div>
+      </div>
+    </div>
+</div> <!-- End Container -->
+
+
+
+</div> <!-- End Page Content -->
+
+<div class="u-full-width footer">
+  <div class="container">
+    <div class="row">
+          <h5>Magic Quack</h5>
+          <p>© 2018 Fireplace Blocker, LLC. Product. <a href="http://fireplaceblocker.net/" target="_blank">Find Out More about The Orginal Fireplace Blocker.</a></p>
+    </div>
+  </div>
+</div><!-- /.footer -->
+
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+    <!-- /.Script for TwentyTwenty Below -->
+    <script>
+$(function(){
+  $("#container1").twentytwenty();
+});
+    </script>
+        <!-- /.Script for Smoothscroll Below -->
+    <script>
+    $(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+    </script>
+</body>
+</html>
