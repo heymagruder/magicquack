@@ -110,7 +110,7 @@ nav ul li a:hover { opacity: 0.4; }
 .buy-products {
 	width: 100%;
 	background-color: #f1f1f1;
-	padding-bottom: 160px;
+/*	padding-bottom: 160px;*/
 }
 
 .one-can {
@@ -137,10 +137,15 @@ nav ul li a:hover { opacity: 0.4; }
 	    -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
+    margin-bottom: 160px;
 }
 
 .three-can h4 {
 	line-height: 30px;
+}
+
+.case-info{
+padding-top:70px;
 }
 
 .buy-title {
