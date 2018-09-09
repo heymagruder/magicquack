@@ -34,12 +34,15 @@ nav ul li a:hover { opacity: 0.4; }
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .header {
-	background-color: #138440;
-	height: 650px;
-	box-shadow: 0 8px 5px -4px #e4e4e4;
-		-webkit-box-shadow: 0 8px 5px -4px #e4e4e4;
-	   -moz-box-shadow: 0 8px 5px -4px #e4e4e4;
-	position: relative;
+    background-color: #138440;
+    height: 650px;
+    box-shadow: 0 8px 5px -4px #e4e4e4;
+    -webkit-box-shadow: 0 8px 5px -4px #e4e4e4;
+    -moz-box-shadow: 0 8px 5px -4px #e4e4e4;
+    position: relative;
+    background-image: url(../images/grass.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
 }
 
 .header-cta {
@@ -93,7 +96,7 @@ nav ul li a:hover { opacity: 0.4; }
 }
 
 .center-title {
-	padding-top: 120px;
+	padding-top: 90px;
 	text-align: center;
 	font-weight: 700;
 	padding-bottom: 40px;
