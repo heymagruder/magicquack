@@ -292,8 +292,8 @@ padding-top:70px;
 /* Medias
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-/* Smaller than 550 */
-@media (max-width: 550px) {
+/* Smaller than 640 */
+@media (max-width: 640px) {
   .cta-callouts {
     display: none;
   }
