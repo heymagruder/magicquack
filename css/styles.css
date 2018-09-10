@@ -13,7 +13,6 @@ nav ul li a:hover { opacity: 0.4; }
 .brand-nav {
 	padding: 8px;
 	text-transform: uppercase;
-/*	font-family: 'Montserrat', sans-serif;*/
 	font-family: 'PT Sans', sans-serif;
 	font-weight: 700;
 }
@@ -46,7 +45,7 @@ nav ul li a:hover { opacity: 0.4; }
 }
 
 .header-cta {
-	padding-top: 20%;
+	padding-top: 8%;
 	padding-left: 8%;
 	color: #fff;
 }
@@ -56,17 +55,16 @@ nav ul li a:hover { opacity: 0.4; }
 }
 
 .header-video {
-	padding: 40px;
+	margin-top: 100px;
 }
 
 .cta-callouts {
 	width: 80%;
 	background-color: #fff;
 	border: 1px solid #cdcdcd;
-	height: 115px;
 	margin: 0 auto;
     z-index: 2;
-    margin-top: 120px;
+    margin-top: 180px;
     padding: 7px;
     -webkit-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
     -moz-box-shadow: 0 0 10px rgba(80, 80, 80, 0.3);
@@ -76,11 +74,33 @@ nav ul li a:hover { opacity: 0.4; }
 .cta-one {
 	margin-top: 3px;
 	border-right: 1px solid #cdcdcd;
+	padding-top:10px;
+}
+
+.cta-one h5 {
+	color:#da1b23;
+	font-weight: 800;
+}
+
+.cta-two h5 {
+	color:#da1b23;
+	font-weight: 800;
+}
+
+.cta-three h5 {
+	color:#da1b23;
+	font-weight: 800;
 }
 
 .cta-two {
 	margin-top: 3px;
 	border-right: 1px solid #cdcdcd;
+	padding-top:10px;
+}
+
+.cta-three {
+	margin-top: 3px;
+	padding-top:10px;
 }
 
 /* Page Sections
