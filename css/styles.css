@@ -185,9 +185,16 @@ padding-top:70px;
 .can-price {
 	font-size: 30px;
 	color: #333;
-	padding-bottom: 60px;
 	font-family: 'Montserrat', sans-serif;	
 }
+.shipping {
+	font-size: 10px;
+	color: #333;
+	font-family: 'Montserrat', sans-serif;
+	padding-bottom: 60px;
+	letter-spacing: 1px;	
+}
+
 
 .colorfill {
 	background-color: #138440;
